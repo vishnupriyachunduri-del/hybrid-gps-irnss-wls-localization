@@ -44,20 +44,20 @@ outputs/
 
 ## Upgrades Over Base Version
 
-| Feature | Base Version | Upgraded Version |
-|---|---|---|
-| Satellites | 8 random | 6 GPS + 5 IRNSS (realistic geometry) |
-| Epochs | 10 | 20 |
-| Receiver position | Random ECEF | Hyderabad, India (real coordinates) |
-| Ionospheric correction | ❌ | ✅ Klobuchar model |
-| Tropospheric correction | ❌ | ✅ Saastamoinen model |
-| Weighting | SNR only | SNR + Elevation-based |
-| DOP computation | ❌ | ✅ PDOP, HDOP, VDOP per epoch |
-| RAIM | ❌ | ✅ Chi-squared residual test |
-| Coordinate output | ECEF only | ✅ ECEF + Lat/Lon/Alt |
-| Accuracy metrics | Mean, RMS | ✅ + Max, Std, CEP50, CEP95 |
-| Plots | 2 | 6 (error, DOP, bar, CDF, components, atmospheric) |
-| Reproducibility | Random seed | ✅ Fixed seed (rng(42)) |
+| Feature |  |
+|---|---|
+| Satellites  | 6 GPS + 5 IRNSS (realistic geometry) |
+| Epochs  | 20 |
+| Receiver position | Hyderabad, India (real coordinates) |
+| Ionospheric correction |  Klobuchar model |
+| Tropospheric correction |  Saastamoinen model |
+| Weighting | SNR + Elevation-based |
+| DOP computation |  PDOP, HDOP, VDOP per epoch |
+| RAIM | Chi-squared residual test |
+| Coordinate output | ECEF + Lat/Lon/Alt |
+| Accuracy metrics | Mean, RMS + Max, Std, CEP50, CEP95 |
+| Plots |  6 (error, DOP, bar, CDF, components, atmospheric) |
+| Reproducibility | Fixed seed (rng(42)) |
 
 ---
 
