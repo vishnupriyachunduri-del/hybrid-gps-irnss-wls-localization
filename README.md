@@ -213,7 +213,7 @@ Lower DOP = better satellite geometry = more accurate position.
 
 ## Authors
 
-**Team:** [Chunduri Vishnu Priya] | ECE Department, MGIT Hyderabad  
+**Author:** Chunduri Vishnu Priya | ECE Department, MGIT Hyderabad  
 **Course:** Advanced Communication Laboratory  
 **Institution:** Mahatma Gandhi Institute of Technology, Hyderabad
 
